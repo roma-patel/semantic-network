@@ -38,3 +38,4 @@ testdata/vectors
 testdata/psql
 testdata/stats
 */.DS_Store
+?.DS_Store
