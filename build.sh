@@ -15,7 +15,6 @@ check_disk_space() {
 }
 
 complain_db () {
-    echo
     echo "You don't have access to the '$dbname' PostgreSQL database."
     echo "You may need to install PostgreSQL 9.5 or later, create this database,"
     echo "give yourself access to it, or set \$CONCEPTNET_DB_NAME to a database"
